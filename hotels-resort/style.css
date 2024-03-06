@@ -1,0 +1,773 @@
+/*
+Theme Name: PATARA
+Theme URI: https://jmcampos.dev
+Author: Theme Designer
+Author URI: https://jmcampos.dev
+Description: A hypothethetical, generalized typical theme for teaching purpose only.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, white, light, dark, two-columns
+Text Domain: generaltheme
+Domain Path: /languages
+*/
+
+.banner-header {
+  background-attachment: scroll !important;
+}
+
+.nopost-title {
+  text-align: center;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  padding-left: 10px;
+}
+
+.amenities .owl-carousel.owl-drag .owl-item {
+  display: flex;
+}
+
+/* ---------------------------------------------- */
+/* Latest News Slider Home
+/* ---------------------------------------------- */
+.owl-stage {
+  display: flex;
+}
+
+.blog-home .item {
+  height: 100%;
+}
+
+.blog-home .item .content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog-home .item .arrow {
+  margin-top: auto;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 20px;
+}
+
+.blog-home .post-categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.blog-home .post-categories a {
+  font-size: 12px;
+  color: #3b3b3b;
+}
+
+.blog-home .item:hover .post-categories a {
+  color: white;
+}
+
+.blog-home .category-list {
+  display: flex;
+}
+
+/* ---------------------------------------------- */
+/* Post Destacado
+/* ---------------------------------------------- */
+
+.post-categories {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.post-categories {
+  margin-bottom: .3rem;
+}
+
+.post-categories a {
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  color: #aa8453;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.post-destacado {
+  margin-bottom: 120px !important;
+}
+
+.post-destacado .info a {
+  color: #aa8453;
+}
+
+.post-destacado .info {
+  font-size: 14px;
+  color: #898989;
+  margin-bottom: 1rem;
+}
+
+.post-destacado img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* ---------------------------------------------- */
+/* Listado de Post - BLOG
+/* ---------------------------------------------- */
+
+.blog .post-cont {
+  padding: 15px 0 30px 0;
+}
+
+.author__paragraph {
+  font-size: 14px;
+  color: #898989;
+  margin-bottom: 0;
+}
+
+.author__paragraph a {
+  color: #aa8453;
+}
+
+.blog__post .tags a {
+  font-size: 13px;
+  margin: 3px !important;
+  padding: 5px 12px;
+  background-color: #fcfaf9;
+  color: #3b3b3b;
+}
+
+.blog__post .tags {
+  margin-bottom: 1rem;
+}
+
+.blog .blog__post .post-img img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* ---------------------------------------------- */
+/* Tag Cloud Widget - Sidebar
+/* ---------------------------------------------- */
+.tag-cloud-link {
+  margin: 3px !important;
+  padding: 8px 20px;
+  background-color: #f6f1f0 !important;
+  color: #3b3b3b !important;
+  border: none !important;
+}
+
+.tag-cloud-link span {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.tag-cloud-link:hover {
+  background-color: #aa8453 !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------- */
+/* Calendar Widget - Sidebar
+/* ---------------------------------------------- */
+.calendar-widget .wp-calendar-table td a {
+  color: #aa8453;
+}
+
+.calendar-widget .wp-calendar-table thead th {
+  background-color: #f6f1f0;
+}
+
+.calendar-widget .wp-block-calendar table:where(:not(.has-text-color)) td,
+.wp-block-calendar table:where(:not(.has-text-color)) th {
+  border-color: #f6f1f0;
+}
+
+/* ---------------------------------------------- */
+/* Categorías y Autores - Sidebar
+/* ---------------------------------------------- */
+.category__list li a,
+.authors__list li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------------------------------------- */
+/* Ultimos Post - Sidebar
+/* ---------------------------------------------- */
+.recent__posts .recent img {
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+
+
+/* ---------------------------------------------- */
+/* Posts Results - Search
+/* ---------------------------------------------- */
+.no-post-found-container {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-post-found-container h3 {
+  margin: 0;
+}
+
+.recent-entry-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recent-entry {
+  display: flex;
+  background-color: white;
+}
+
+.recent-entry .recent-entry-image {
+  display: flex;
+  flex: 2;
+  padding: 15px;
+}
+
+.recent-entry .recent-entry-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.recent-entry .price {
+  font-size: 20px;
+  font-family: 'Libre Caslon Display', serif;
+}
+
+.recent-entry .price i {
+  font-family: 'Outfit', sans-serif;
+  font-size: 12px;
+  color: #3b3b3b;
+  font-style: normal;
+}
+
+.recent-entry .recent-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 5;
+  padding: 15px 15px 15px 0;
+}
+
+.recent-entry .recent-info .butn-dark2 {
+  margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .recent-entry .recent-info .butn-dark2 {
+    margin: 15px;
+    padding: 14px 16px;
+  }
+}
+
+.recent-entry .recent-info-date {
+  font-size: 14px;
+  color: #898989;
+}
+
+
+/* ---------------------------------------------- */
+/* Posts Pagination - Search
+/* ---------------------------------------------- */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.blog-pagination-wrap li span {
+  background: transparent;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 41px;
+  text-align: center;
+  color: #1b1b1b;
+  font-weight: 300;
+  border: 1px solid #eee3d0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  border-radius: 100%;
+}
+
+.blog-pagination-wrap li span {
+  background-color: #1b1b1b;
+  border: 1px solid #1b1b1b;
+  color: #fff;
+}
+
+/* ---------------------------------------------- */
+/* Post Content - Single
+/* ---------------------------------------------- */
+.single__header .post {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .single__header .post {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.single__header .post .date-comment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.single__content .tags {
+  margin-top: 3rem;
+}
+
+.single__content .post-categories {
+  margin-bottom: 25px;
+}
+
+.single__header .post .date-comment i {
+  color: white;
+}
+
+.post-stats {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.post-stat-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.post-stats i {
+  color: #aa8453;
+}
+
+.related-posts-container {
+  margin-top: 100px;
+}
+
+.related-post-image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.related-posts-container .related-post-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.related-posts-container .related-post-item .post-cont {
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.related-posts-container .related-post-item .post-cont h4 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.related-posts-container .related-post-item .post-cont .related-post-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.related-posts-container .related-post-item .post-cont .post-categories {
+  margin-bottom: 15px;
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.related-posts-container .related-post-item .post-cont .related-post-details p {
+  margin: 0;
+}
+
+.related-posts-container .related-post-item .post-cont .butn-dark a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .related-posts-container .related-post-item {
+    margin-bottom: 50px;
+  }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* Author Page - JMCAMPOSDEV
+/* ---------------------------------------------- */
+
+.author-banner {
+  background-color: #1B1B1B;
+}
+
+@media screen and (max-width: 768px){
+  .author-banner .author-socials {
+    justify-content: center;
+  }
+
+  .author-banner .author-picture {
+    display: none;
+  }
+}
+
+.author-banner .container,
+.author-banner .container div {
+  height: -webkit-fill-available;
+}
+
+.author-banner .author-picture {
+  height: inherit;
+  object-fit: cover;
+}
+
+.author-banner .author-nickname {
+  color: white;
+  font-size: 15px;
+}
+
+.author-banner .author-name {
+  margin-bottom: 15px;
+}
+
+.author-banner .container .author-socials {
+  display: flex;
+  gap: 15px;
+  height: auto;
+}
+
+.author-socials a {
+  color: white;
+  font-size: 16px;
+  transition: all .3s ease-in-out;
+}
+
+.author-socials a:hover {
+  color: #aa8453;
+}
+
+.skills-section .circle-bar {
+  margin-inline: auto;
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.skills-section .line-bar {
+  position: relative;
+}
+
+/* ---------------------------------------------- */
+/* All Author Page
+/* ---------------------------------------------- */
+.author-main-picture {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* ---------------------------------------------- */
+/* Masonry Classes
+/* ---------------------------------------------- */
+
+.masonry-card {
+  background-color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.masonry-card .card-list-masonry {
+  padding: 0;
+  margin: 0;
+}
+
+.masonry-card .card-list-masonry li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: all .3s ease-in-out;
+}
+.masonry-card .card-list-masonry li span {
+  transition: all .3s ease-in-out;
+}
+
+.masonry-card .card-list-masonry li {
+  margin-bottom: 15px;
+  color: #1b1b1b;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.masonry-card .card-list-masonry li:hover a {
+  color: #aa8453 !important;
+}
+.masonry-card .card-list-masonry li:hover span {
+  color: #aa8453 !important;
+}
+
+.masonry-card .card-list-masonry li a:hover {
+  color: #aa8453 !important;
+}
+
+.masonry-card .time-list li{
+  display: flex;
+}
+
+.card-title {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #aa8453;
+}
+
+.card-body {
+  padding-top: 1rem;
+
+}
+
+.masonry-last-entires {
+  padding: 0;
+}
+
+.sizer {
+  width: 31%;
+}
+
+@media screen and (max-width:980px) {
+  .sizer {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .sizer {
+    width: 100%;
+  }
+}
+
+
+/* ---------------------------------------------- */
+/* COMMENTS SECTION - SINGLE
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* COMMENTS SECTION - SINGLE */
+/* ---------------------------------------------- */
+
+.avatar {
+  width: auto;
+  border-radius: 50%;
+}
+
+.comments-list {
+  padding: 0;
+  margin-top: 5rem;
+}
+
+.comments-list .comment {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+
+.comment {
+  border-bottom: 1px solid #e5dddc;
+}
+
+.comment:last-child {
+  border-bottom: none; /* Remover el borde inferior del último comentario */
+}
+
+.comment-author {
+  margin-right: 15px;
+}
+
+.comment-author .fn {
+  font-style: normal;
+  margin-left: 10px;
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 22px;
+  color: #1b1b1b;
+}
+
+.comment-meta {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #898989;
+}
+
+.comment-author .says {
+  display: none;
+}
+
+.comment-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comment-body p {
+  flex: 100%;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.comment-reply-link {
+  font-size: 13px;
+  color: #aa8453;
+  margin: 0;
+  font-weight: 300;
+  padding-left: 40px;
+}
+
+.comment .children {
+  padding-top: 35px;
+}
+
+
+/* ---------------------------------------------- */
+/* PRIVATE ZONE
+/* ---------------------------------------------- */
+.privatezone-role {
+  font-family: 'Outfit', sans-serif;
+  color: #aa8453;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.25em;
+  font-size: 12px;
+  letter-spacing: 6px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+#loginform {
+  text-align: start !important;
+}
+
+.login-submit {
+  display: flex;
+  justify-content: center;
+}
+
+/* Check Box */
+#rememberme {
+  position: relative;
+  flex: 0;
+  cursor: pointer;
+}
+
+.login-remember label {
+  cursor: pointer;
+  position: relative;
+  padding-left: 15px;
+  line-height: normal;
+  user-select: none;
+}
+
+.login-remember label::before {
+  content: '';
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #F6F1F0;
+  background-size: contain;
+  left: -15px;
+  border: 1px solid #aa8453;
+}
+
+.login-remember label::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #aa8453;
+  display: inline-block;
+  border-radius: 10px;
+  position: absolute;
+  top: 4px;
+  left: -11px;
+  transform: scale(1);
+  opacity: 0;
+  transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+}
+
+#rememberme:checked+label::after {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#wp-submit:hover {
+  background-color: #99764a !important;
+  border-color: #98764a !important;
+}
+
+/* ---------------------------------------------- */
+/* ROOMS BLOG
+/* ---------------------------------------------- */
+
+.room4 .rooms3 .room-img img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.room-details2 .rooms3 .price {
+  font-size: 32px;
+}
+
+.room-content .post-categories {
+  margin-bottom: 10px;
+}
+
+.room-content .section-title {
+  margin-bottom: 30px;
+}
+
+.room-content .room-default-content {
+  margin-top: 30px;
+}
+
+.room-content .widget ul li:last-child {
+  margin-bottom: auto;
+}
+
+/* ---------------------------------------------- */
+/* About Us Images
+/* ---------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .about .row .row .col-md-6:last-child {
+    padding-right: 60px;
+  }
+}

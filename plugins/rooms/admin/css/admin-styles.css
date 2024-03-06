@@ -1,0 +1,55 @@
+.flex-metabox {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  align-content: center;
+  gap: 2rem;
+}
+
+.details .project-staff {
+  height: 100%;
+  flex: 1;
+  padding: 2rem;
+}
+
+.details {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.details * {
+  flex: 1;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.details h2, .project-staff h2 {
+  padding: 5px 0;
+  background: rgba(101, 101, 101, .8);
+  color: white;
+  margin-bottom: 1rem !important;
+  border-radius: 3px;
+}
+
+.slider-images {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 800px;
+  gap: 12px;
+}
+
+.slider-images .slider-image {
+  position: relative;
+  flex: 1 0 30.33%;
+}
+
+.slider-images .slider-image .remove-image {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: auto;
+  cursor: pointer;
+  color: #2271B1;
+}
